@@ -1,0 +1,24 @@
+{
+  "name": "masonry-flter-glry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://walid-programming: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@github.com/walid-programming/masonry-flter-glry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walid-programming/masonry-flter-glry/issues"
+  },
+  "homepage": "https://github.com/walid-programming/masonry-flter-glry#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0"
+  }
+}
