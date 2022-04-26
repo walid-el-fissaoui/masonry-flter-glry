@@ -1,22 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Masonry Gallery</title>
   <!-- Call Styles -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="src/vendor/glightbox/css/glightbox.min.css">
   <link rel="stylesheet" href="public/css/style.css">
 </head>
+
 <body>
-   <!-- Call Scripts -->
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <div class="mf-glry">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul class="mf-glry__fltrs" id="mf-glry__fltrs">
+            <li data-filter="*" class="is-active">All</li>
+            <li data-filter=".filter-group1">group1</li>
+            <li data-filter=".filter-group2">group2</li>
+            <li data-filter=".filter-group3">group3</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mf-glry__container">
+        <div class="col-lg-4 col-md-6 mf-glry__item filter-group1">
+          <div class="mf-glry__wrap">
+            <img src="public/imgs/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="mf-glry__info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="mf-glry__links">
+                <a href="public/imgs/video.mp4" data-gallery="portfolioGallery" class="glry-lightbox" title="Web 3">
+                  <i class="bi bi-bookmark-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mf-glry__item filter-group2">
+          <div class="mf-glry__wrap">
+            <img src="public/imgs/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="mf-glry__info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <div class="mf-glry__links">
+                <a href="public/imgs/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="glry-lightbox" title="App 2">
+                  <i class="bi bi-bookmark-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mf-glry__item filter-group3">
+          <div class="mf-glry__wrap">
+            <img src="public/imgs/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="mf-glry__info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <div class="mf-glry__links">
+                <a href="public/imgs/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="glry-lightbox" title="Card 2">
+                  <i class="bi bi-bookmark-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mf-glry__item filter-group1">
+          <div class="mf-glry__wrap">
+            <img src="public/imgs/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="mf-glry__info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <div class="mf-glry__links">
+                <a href="public/imgs/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="glry-lightbox" title="Web 2">
+                  <i class="bi bi-bookmark-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Call Scripts -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
   <script src="src/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="src/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="src/js/main.js"></script>
 </body>
+
 </html>
